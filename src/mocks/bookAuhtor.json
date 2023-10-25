@@ -1,0 +1,22 @@
+{
+  "books": [
+    {"id": "1", "name": "book 1"},
+    {"id": "2", "name": "book 2"},
+    {"id": "3", "name": "book 3"},
+    {"id": "4", "name": "book 4"}
+  ],
+  "authors": [
+    {"id": "1", "name": "author 1"},
+    {"id": "2", "name": "author 2"},
+    {"id": "3", "name": "author 3"},
+    {"id": "4", "name": "author 4"}
+  ],
+  "bookAuthorMappings":[
+    {"id":"1", "book": "1", "author":"1"},
+    {"id":"2", "book": "1", "author":"3"},
+    {"id":"3", "book": "2", "author":"2"},
+    {"id":"4", "book": "3", "author":"1"},
+    {"id":"5", "book": "3", "author":"4"},
+    {"id":"5", "book": "4", "author":"2"}
+  ]
+}
